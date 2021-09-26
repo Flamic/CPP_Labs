@@ -36,7 +36,7 @@ public class Main {
                         manager.sources.add(source);
                         break;
                     }
-                    case "create": {
+                    case "create appliance": {
                         ElectricalAppliance appliance;
                         System.out.print("Enter appliance name: ");
                         switch (scanner.nextLine()) {

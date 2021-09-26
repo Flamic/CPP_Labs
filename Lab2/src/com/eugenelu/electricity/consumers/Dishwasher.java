@@ -8,7 +8,9 @@ public class Dishwasher extends ElectricalAppliance {
 
     @Override
     public String getState() {
-        return isTurnedOn ? "Is turned on: washing." : "Is turned off.";
+        return isTurnedOn
+                ? "Is turned on (source: " + currentSource.getSourceName() + "): washing."
+                : "Is turned off.";
     }
 
     @Override

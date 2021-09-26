@@ -142,7 +142,7 @@ public class Source {
         catch (Exception e) { throw new Exception("Incorrect voltage value"); }
         if (this.outputVoltage < 0) throw new Exception("Incorrect voltage value");
 
-        printStream.print("Enter input amperage: ");
+        printStream.print("Enter output amperage: ");
         try { this.outputAmperage = scanner.nextDouble(); }
         catch (Exception e) { throw new Exception("Incorrect amperage value"); }
         if (this.outputAmperage < 0) throw new Exception("Incorrect amperage value");

@@ -8,7 +8,9 @@ public class ComputerPowerSupply extends ElectricalAppliance {
 
     @Override
     public String getState() {
-        return isTurnedOn ? "Is turned on: computer is running." : "Is turned off.";
+        return isTurnedOn
+                ? "Is turned on (source: " + currentSource.getSourceName() + "): computer is running."
+                : "Is turned off.";
     }
 
     @Override

@@ -29,7 +29,9 @@ public class VacuumCleaner extends ElectricalAppliance {
 
     @Override
     public String getState() {
-        return isTurnedOn ? "Is turned on: cleaning." : "Is turned off.";
+        return isTurnedOn
+                ? "Is turned on (source: " + currentSource.getSourceName() + "): cleaning."
+                : "Is turned off.";
     }
 
     @Override
