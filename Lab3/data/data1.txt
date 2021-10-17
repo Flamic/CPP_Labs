@@ -1,0 +1,8 @@
+Kettle,AX-400,K-Company,500.00,2000
+Vacuum Cleaner,BX-500,Korcher,2200.00,1600
+Dishwasher,CX-600,K-Company,1499.00,1500
+Kettle,PARUS,Ember,454.90,1200
+Iron,Heatman,Korcher,695.50,1300
+Electrical stove,PAW2,K-Company,6500.00,2200
+Fridge,F-4,Cooler,10000.00,500
+Fridge,AR-6,Ember,8400.00,400
